@@ -1,10 +1,11 @@
-import streamlit as st
+import streamlit as st 
 import tensorflow as tf
 import numpy as np
 import pandas as pd
 from PIL import Image
 import os
 from report_generator import generate_pdf_report
+
 
 # --------------------------------------------------
 # PAGE CONFIG
@@ -158,3 +159,8 @@ if uploaded_file is not None:
 
 else:
     st.info("Upload MRI image to begin AI analysis.")
+
+
+
+
+
